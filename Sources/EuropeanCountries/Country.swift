@@ -1,6 +1,6 @@
 public class Country {
-  var countryName: String
-  var countryCapital: String
+  public var countryName: String
+ public var countryCapital: String
 
   public init(countryName: String, countryCapital: String) {
     self.countryName = countryName
@@ -9,7 +9,7 @@ public class Country {
 }
 
 public class Countries {
-  var countries: [Country] = []
+  public var countries: [Country] = []
 
   public init() {
     self.countries.append(Country(countryName: "Albania", countryCapital: "Tirana"))
