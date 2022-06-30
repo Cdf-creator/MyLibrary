@@ -1,4 +1,6 @@
-public class Country {
+import ScadeKit
+
+public class Country : EObject {
   public var countryName: String
  public var countryCapital: String
 
